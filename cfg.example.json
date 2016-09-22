@@ -1,0 +1,14 @@
+{
+  "log_level": "debug",
+  "protocol": "http",
+  "listen": "127.0.0.1:23456",
+  "bucket_key_size": 10,
+  "redis": {
+      "dsn": "127.0.0.1:6379",
+      "passwd": "******",
+      "maxIdle": 5,
+      "connTimeout": 5000,
+      "readTimeout": 5000,
+      "writeTimeout": 5000
+  }
+}
